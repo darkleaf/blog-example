@@ -24,6 +24,7 @@ module Blog
       g.stylesheets false
       g.javascripts false
       g.helper false
+      g.test_framework  :test_unit, fixture_replacement: :factory_girl
     end
   end
 end
