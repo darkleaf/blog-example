@@ -1,6 +1,11 @@
 Blog::Application.routes.draw do
   scope module: :web do
     root 'welcome#show'
+
+    namespace :admin do
+      root 'posts#index'
+      resources :posts
+    end
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

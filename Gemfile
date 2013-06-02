@@ -14,12 +14,15 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'turbolinks'
 gem 'simple_form'
+gem 'responders'
 
 gem 'unicorn'
 
+gem 'usefull_scopes', github: 'kaize/usefull_scopes'
 
 group :test do
   gem 'factory_girl_rails'
+  gem "turn"
 end
 
 #group :doc do
