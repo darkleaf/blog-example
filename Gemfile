@@ -7,10 +7,12 @@ gem 'sqlite3'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'less-rails'
 gem 'haml-rails'
-gem "twitter-bootstrap-rails"
-gem 'jquery-rails'
 gem 'therubyracer'
 gem 'uglifier', '>= 1.3.0'
+
+gem "twitter-bootstrap-rails"
+gem 'jquery-rails'
+gem 'codemirror-rails'
 
 gem 'turbolinks'
 gem 'simple_form'
